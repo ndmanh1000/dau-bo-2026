@@ -24,7 +24,9 @@ export default function ObjectOfUse() {
       </div>
       <div className="container-custom relative z-10">
         <div className="w-full flex flex-col gap-4 items-center justify-center animate-fade-in-down">
-          <p className="text-[#548035] font-semibold text-lg">ĐỐI TƯỢNG SỬ DỤNG</p>
+          <p className="text-[#548035] font-semibold text-lg">
+            ĐỐI TƯỢNG SỬ DỤNG
+          </p>
           <p className="text-[#296003] font-semibold text-2xl md:text-3xl lg:text-4xl">
             DẦU QUẢ BƠ ÉP LẠNH KEYAVO
           </p>
@@ -71,14 +73,16 @@ export default function ObjectOfUse() {
                     <SiTicktick size={30} className="text-[#FCA400]" />
                     <p>
                       Yêu thích nấu ăn: Dầu bơ là một nguồn dinh dưỡng tuyệt vời
-                      để thêm hương vị vào các món ăn từ salad đến các món chính.
+                      để thêm hương vị vào các món ăn từ salad đến các món
+                      chính.
                     </p>
                   </div>
                   <div className="w-full flex items-center gap-3">
                     <SiTicktick size={30} className="text-[#FCA400]" />
                     <p>
-                      Cần cho trẻ em và trẻ sơ sinh: Dầu bơ giúp phát triển não bộ
-                      và cung cấp axit béo cần thiết cho sự phát triển khỏe mạnh.
+                      Cần cho trẻ em và trẻ sơ sinh: Dầu bơ giúp phát triển não
+                      bộ và cung cấp axit béo cần thiết cho sự phát triển khỏe
+                      mạnh.
                     </p>
                   </div>
                 </div>
@@ -89,13 +93,20 @@ export default function ObjectOfUse() {
           <div className="w-full mt-5 animate-fade-in-right">
             <div className="w-full flex flex-col items-center justify-center">
               <div className="w-full flex items-center justify-center animate-float">
-                <img src={ofusse} alt="ofusse" className="object-cover hover-scale" />
+                <img
+                  src={ofusse}
+                  alt="ofusse"
+                  className="object-cover hover-scale"
+                />
               </div>
               <div className="w-full flex items-center justify-center gap-4 mt-4">
                 <div className="animate-fade-in-up">
                   <OrderModal />
                 </div>
-                <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+                <div
+                  className="animate-fade-in-up"
+                  style={{ animationDelay: "0.2s" }}
+                >
                   <img src={ofusse1} alt="ofusse1" className="hover-scale" />
                 </div>
               </div>

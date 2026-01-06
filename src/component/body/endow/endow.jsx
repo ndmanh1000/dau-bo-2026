@@ -186,25 +186,34 @@ export default function Endow() {
               </div>
               <div className="w-full bg-white p-4 rounded-b-md shadow-lg">
                 <div className="flex flex-row items-center justify-around">
-                  <div className="flex flex-col items-center justify-center animate-bounce-slow">
+                  <div className="flex flex-col items-center justify-center">
                     <p className="text-lg md:text-xl lg:text-2xl font-medium text-[#CC2330]">
                       {timeLeft.days}
                     </p>
                     <p className="text-sm">Ngày</p>
                   </div>
-                  <div className="flex flex-col items-center justify-center animate-bounce-slow" style={{ animationDelay: '0.1s' }}>
+                  <div
+                    className="flex flex-col items-center justify-center"
+                    style={{ animationDelay: "0.1s" }}
+                  >
                     <p className="text-lg md:text-xl lg:text-2xl font-medium text-[#CC2330]">
                       {timeLeft.hours}
                     </p>
                     <p className="text-sm">Giờ</p>
                   </div>
-                  <div className="flex flex-col items-center justify-center animate-bounce-slow" style={{ animationDelay: '0.2s' }}>
+                  <div
+                    className="flex flex-col items-center justify-center"
+                    style={{ animationDelay: "0.2s" }}
+                  >
                     <p className="text-lg md:text-xl lg:text-2xl font-medium text-[#CC2330]">
                       {timeLeft.minutes}
                     </p>
                     <p className="text-sm">Phút</p>
                   </div>
-                  <div className="flex flex-col items-center justify-center animate-bounce-slow" style={{ animationDelay: '0.3s' }}>
+                  <div
+                    className="flex flex-col items-center justify-center"
+                    style={{ animationDelay: "0.3s" }}
+                  >
                     <p className="text-lg md:text-xl lg:text-2xl font-medium text-[#CC2330]">
                       {timeLeft.seconds}
                     </p>
@@ -317,8 +326,8 @@ export default function Endow() {
               <p className="text-red-500 text-sm">Vui lòng nhập số lượng</p>
             )}
             <div className="w-full flex items-center justify-center">
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 disabled={loading}
                 className="bg-[#225400] hover:bg-[#1a4000] text-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl hover-lift transition-all duration-300 w-full"
               >

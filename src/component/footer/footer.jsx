@@ -25,17 +25,16 @@ export default function Footer() {
               Chuyên cung cấp sản phẩm nông nghiệp sạch từ tự nhiên
             </p>
             <p className="flex items-center text-sm">
-              <MdLocationOn className="mr-2" /> Địa chỉ: 29 Khuất Duy Tiến -
-              Thanh Xuân - Hà Nội
+              <MdLocationOn className="mr-2" /> Địa chỉ: Hà Nội
             </p>
             <p className="flex items-center text-sm">
-              <MdPhone className="mr-2" /> Hotline: 0989666888
+              <MdPhone className="mr-2" /> Hotline:
             </p>
             <p className="flex items-center text-sm">
-              <MdEmail className="mr-2" /> Email: lienhe@blueskyit.vn.com
+              <MdEmail className="mr-2" /> Email:
             </p>
             <p className="flex items-center text-sm">
-              <MdWeb className="mr-2" /> Website:.blueskyit.com
+              <MdWeb className="mr-2" /> Website:
             </p>
           </div>
 
@@ -62,10 +61,7 @@ export default function Footer() {
             <ul>
               <li className="flex items-center mb-2 hover-lift transition-smooth">
                 <FaFacebook className="mr-2" />
-                <a
-                  href="https://www.facebook.com/Dauboeplanh.keyavo"
-                  className="hover:underline"
-                >
+                <a href="#" className="hover:underline">
                   Facebook
                 </a>
               </li>
@@ -86,7 +82,7 @@ export default function Footer() {
         </div>
         <div className="border border-b-white w-full mt-3"></div>
         <div className="text-center mt-8">
-          <p>&copy; @2023 All rights reserved BlueSkyIT</p>
+          <p>&copy; @2023 All rights</p>
         </div>
       </div>
     </footer>

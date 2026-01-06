@@ -68,7 +68,9 @@ export default function Body1() {
                   <p className="text-xs md:text-sm font-semibold line-through">
                     Giá cũ: 315.000đ
                   </p>
-                  <p className="text-lg md:text-xl font-bold animate-pulse-slow">250.000đ</p>
+                  <p className="text-lg md:text-xl font-bold animate-pulse-slow">
+                    250.000đ
+                  </p>
                 </div>
               </div>
             </div>
@@ -80,25 +82,34 @@ export default function Body1() {
               </div>
               <div className="w-full bg-white rounded-b-md shadow-lg">
                 <div className="flex flex-row items-center justify-around p-4">
-                  <div className="flex flex-col items-center justify-center animate-bounce-slow">
+                  <div className="flex flex-col items-center justify-center">
                     <p className="text-lg md:text-xl lg:text-2xl font-medium text-[#CC2330]">
                       24
                     </p>
                     <p className="text-sm">Ngày</p>
                   </div>
-                  <div className="flex flex-col items-center justify-center animate-bounce-slow" style={{ animationDelay: '0.1s' }}>
+                  <div
+                    className="flex flex-col items-center justify-center"
+                    style={{ animationDelay: "0.1s" }}
+                  >
                     <p className="text-lg md:text-xl lg:text-2xl font-medium text-[#CC2330]">
                       14
                     </p>
                     <p className="text-sm">Giờ</p>
                   </div>
-                  <div className="flex flex-col items-center justify-center animate-bounce-slow" style={{ animationDelay: '0.2s' }}>
+                  <div
+                    className="flex flex-col items-center justify-center"
+                    style={{ animationDelay: "0.2s" }}
+                  >
                     <p className="text-lg md:text-xl lg:text-2xl font-medium text-[#CC2330]">
                       59
                     </p>
                     <p className="text-sm">Phút</p>
                   </div>
-                  <div className="flex flex-col items-center justify-center animate-bounce-slow" style={{ animationDelay: '0.3s' }}>
+                  <div
+                    className="flex flex-col items-center justify-center"
+                    style={{ animationDelay: "0.3s" }}
+                  >
                     <p className="text-lg md:text-xl lg:text-2xl font-medium text-[#CC2330]">
                       00
                     </p>
